@@ -24,7 +24,7 @@ function validateLogin() {
     console.log('Correo electrónico sanitizado:', sanitizedEmail);
     console.log('Contraseña sanitizada:', sanitizedPassword);
 
-    if (sanitizedEmail === '20230@virtual.utsc.edu.mx' && sanitizedPassword === 'DesarrolloProfesional') {
+    if (sanitizedEmail === '19260@virtual.utsc.edu.mx' && sanitizedPassword === 'HolaMundo') {
         window.location.href = 'Seccion/menu.html';
     } else {
         alert('Credenciales incorrectas. Inténtelo de nuevo.');
